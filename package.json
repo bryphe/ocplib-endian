@@ -5,7 +5,7 @@
   "license": "GPLv3",
   "esy": {
     "build": [
-      ["dune", "build", "-p", "ocplib-endian", "-j4"]
+      ["./test.sh"]
     ],
     "install": [
       "esy-installer"
