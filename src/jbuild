@@ -55,6 +55,7 @@
 (library
  ((name        ocplib_endian_bigstring)
   (public_name ocplib-endian.bigstring)
+  (flags (-w -32))
   (synopsis
     "Optimised functions to read and write int16/32/64 from bigarrays")
   (wrapped     false)

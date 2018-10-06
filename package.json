@@ -5,7 +5,7 @@
   "license": "GPLv3",
   "esy": {
     "build": [
-      "jbuilder build --only-packages ocplib-endian --root . -j4"
+      ["dune", "build", "-p", "ocplib-endian", "-j4"]
     ],
     "install": [
       "esy-installer"
@@ -13,7 +13,7 @@
     "buildsInSource": "_build"
   },
   "dependencies": {
-    "@opam/jbuilder": "*",
+    "@opam/dune": "*",
     "@opam/cppo": "*",
     "@opam/base-bytes": "*"
   },
