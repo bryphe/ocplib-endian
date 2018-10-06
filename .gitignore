@@ -4,3 +4,6 @@ _build/
 src/.merlin
 tests/.merlin
 ocplib-endian.install
+
+node_modules/
+_esy/

@@ -1,0 +1,26 @@
+{
+  "name": "ocplib-endian",
+  "version": "1.1",
+  "description": "TBD",
+  "license": "GPLv3",
+  "esy": {
+    "build": [
+      "jbuilder build --only-packages ocplib-endian --root . -j4"
+    ],
+    "install": [
+      "esy-installer"
+    ],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@opam/jbuilder": "*",
+    "@opam/cppo": "*",
+    "@opam/base-bytes": "*"
+  },
+  "peerDependencies": {
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.0"
+  }
+}
