@@ -6331,9 +6331,7 @@ module OCamlbuildCommon = struct
           [
             "-classic-display";
             "-no-log";
-            "-no-links";
-            "-install-lib-dir";
-            (Filename.concat (standard_library ()) "ocamlbuild")
+            "-no-links"
           ]
         else
           [];
